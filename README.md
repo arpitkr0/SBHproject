@@ -4,4 +4,4 @@
   <li>npm run dev</li>
 </ul>
 <br>
-<p>Before running it locally, make sure to create a .env folder and fill all the details mentioned in .envExample file.</p>
+<p>Before running it locally, make sure to create a .env file and fill all the details mentioned in .envExample file.</p>
