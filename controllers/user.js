@@ -85,6 +85,7 @@ const handleChangePassword = async (req, res) => {
             { email: user.email },
             { password: hashedNewPassword }
           );
+          res.clearCookie("uid");
           return res.render("changepassword", {
             message: "Password updated successfully!",
           });
